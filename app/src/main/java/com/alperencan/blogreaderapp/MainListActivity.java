@@ -1,12 +1,12 @@
 package com.alperencan.blogreaderapp;
 
-import android.app.Activity;
+import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MainListActivity extends Activity {
+public class MainListActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
